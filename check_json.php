@@ -7,7 +7,7 @@ require_once(__DIR__.'/inc/nagios.php');
 // Command line parser
 $parser = new Console_CommandLine(array(
 	'description'	=> 'Check JSON',
-	'version'		=> '0.0.1',
+	'version'		=> '0.0.2',
 	'force_posix'	=> true
 ));
 
